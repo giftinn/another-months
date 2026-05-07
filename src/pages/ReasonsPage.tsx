@@ -30,7 +30,7 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     {
       id: 3,
       title: 'I wish..',
-      text: ' I wish, kamu makin sabar sama aku yang makin kesini makin sibuk juga dan jarang ada waktu sama kamu.',
+      text: ' I wish, kamu makin sabar sama aku yang pasti masih ada kurangnya dihubungan ini.',
       isRevealed: false
     },
     {
