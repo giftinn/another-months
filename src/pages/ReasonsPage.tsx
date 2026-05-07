@@ -18,31 +18,31 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     {
       id: 1,
       title: 'I wish.. ',
-      text: 'I wish, semua hal yang akan atau sedang kamu lakuin dipermudah',
+      text: 'I wish, semoga perasaan kita tetap sama dan makin sayang satu sama lain.',
       isRevealed: false
     },
     {
       id: 2,
       title: 'I wish..',
-      text: 'I wish, kamu selalu dikeliling hal-hal baik dan dijauhkan dari segala yang buruk',
+      text: 'I wish, hubungan kita selalu dikeliling hal-hal baik dan dijauhkan dari segala yang buruk.',
       isRevealed: false
     },
     {
       id: 3,
       title: 'I wish..',
-      text: ' I wish, kamu makin sayang sama aku. Makin sabar sama sikap dan tingkah aku dan makin dewasa',
+      text: ' I wish, kamu makin sabar sama aku yang makin kesini makin sibuk juga dan jarang ada waktu sama kamu.',
       isRevealed: false
     },
     {
       id: 4,
       title: 'I wish..',
-      text: 'Aku harap kamu selalu bahagia, entah dengan cara apapun baik sama aku atau pun gak sama aku',
+      text: 'I wish, kita bisa tetap saling percaya satu sama lain.',
       isRevealed: false
     },
     {
       id: 5,
       title: 'I wish..',
-      text: 'Dan aku sangat berharap kamu selalu dikasih kekuatan buat ngehadapin segala ujian yang akan datang atau sedang kamu hadapi',
+      text: 'Dan aku sangat berharap, kita selalu dikasih kekuatan buat ngehadapin segala ujian yang akan datang atau sedang kita hadapi',
       isRevealed: false
     }
   ]);
@@ -64,7 +64,7 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     <div className="text-center space-y-4 sm:space-y-6 px-4">
       <div className="space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold gradient-text leading-relaxed">
-          My wish for You
+          My wish for Us
         </h2>
 
         <p className="text-base sm:text-lg md:text-xl text-blue-600 font-medium">
