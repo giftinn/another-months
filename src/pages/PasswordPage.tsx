@@ -10,7 +10,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
   const [password, setPassword] = useState('');
   const [showError, setShowError] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const correctPassword = '100126';
+  const correctPassword = '0805';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -46,7 +46,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
           You know what the password is???
         </h2>
         <p className="text-base sm:text-lg md:text-xl text-blue-600 font-medium">
-          Hint; Tanggal dimana aku pertama kali chat kamu
+          Hint; Hari ini!!
         </p>
       </div>
 
@@ -59,7 +59,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
             type="text"
             value={password}
             onChange={handleInputChange}
-            placeholder="DDMMYY"
+            placeholder="DDMM"
             maxLength={8}
             className="w-full px-4 sm:px-6 py-3 sm:py-4 text-center text-lg sm:text-xl font-semibold border-2 border-blue-300 rounded-xl sm:rounded-2xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-200 transition-all duration-300 bg-blue-50/90 backdrop-blur-sm shadow-lg hover:shadow-xl"
             style={{ fontFamily: 'monospace', letterSpacing: '0.15em' }}
