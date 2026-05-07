@@ -43,7 +43,7 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
 
   const fullText = `Happy Mensiversary for Us! 
   
-First, thank you for your time buat buka gift sederhana dari aku ini (and i hope u like it hehe). I just wanna say, happy mensive for my lovely man.
+First, thank you for your time buat buka gift sederhana dari aku ini (and i hope u like it hehe). I just wanna say, happy mensive for my dearest sayang.
 
 another month with you, and somehow my heart still feels just as full and maybe even more. thank you for choosing me every day, for staying, for loving me in ways that feel warm and safe. being with you isn’t just about the happy moments, it’s about knowing we’re growing together, step by step.
 
@@ -52,7 +52,7 @@ then, i wanna say thank you for everything u did to me, it means a lot to me fr.
 and bcs it's our special day, aku berharap hubungan kita makin kuat, perasaan kamu ke aku masih tetap sama dan kalau bisa makin sayang dan cinta ke aku, dan semua mimpi kita berdua terwujud satu persatu. aku juga berharap semoga kita selalu dikelilingi sama hal-hal baik dan dijauhin dari yang jahat-jahat. thenn, i just wanna say that u aren't alone. kamu harus percaya kalau kamu selalu dikelilingi orang-orang yang sayang sama kamu, utamanya aku yang selalu disini buat tempat kamu pulang. 
 
 With all my heart, 
-Your Girlfriend.`;
+your boyfriend`;
 
   useEffect(() => {
     let currentIndex = 0;
